@@ -56,7 +56,6 @@ img{
 }
 
 .content{
-    background-color:darkgoldenrod;
     color: wheat;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-right: 2%;
@@ -79,8 +78,16 @@ img{
 
 
 @media screen and (max-width: 800px) {
-    .header, .content {
-        width: 100%;
+    .header, #content {
+        width: 150%;
     }
+    #title {
+        width: 200%;
+    }
+    .mySlides {
+        width: 200%;
+    }
+
     
 }
+
