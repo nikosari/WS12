@@ -1,0 +1,163 @@
+#header {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    margin-right: 6%;
+    font-size: 30px;
+    
+
+    
+}
+
+a:link{
+    color:black;
+    border: 2px green;
+    padding: 10px 20px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+}
+
+
+a:active{
+    color:chocolate;
+    
+}
+a:visited{
+    color:black;
+}
+a:hover{
+    color: darkolivegreen;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+
+#title{
+    background-color: black;
+    color: white;
+    justify-content: center;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    display: flex;
+    font-family:'Times New Roman', Times, serif;
+    border-radius: 7px;
+}
+
+#esimerkki {
+    max-width: 500px;
+    height: auto;
+}
+
+.prev, .next {
+    cursor: pointer;
+    user-select: none;
+}
+.prev:hover, .next:hover {
+    color: aqua;
+}
+.mySlides {
+    display: none;
+    max-width: 100%;
+}
+
+.mySlides:first-child {
+    display: block;
+}
+th, td, tr {
+    border: 3px black;
+    border-collapse: collapse;
+    background-color: rgb(100, 88, 88);
+    border-style:ridge;
+    font-size: 16px;
+    border-radius: 15px;
+    
+}
+
+#tableimg {
+    width: 70%;
+}
+
+#button {
+    opacity: 10%;
+    background-color: black; 
+    border: 0;
+}
+
+#button:hover {
+    opacity: 90%;
+    color: red;
+    border: 1;
+    background-color: aquamarine;
+}
+
+.responsive {
+    margin: 6px;
+    width: 24.9%;
+    color: aliceblue;
+}
+
+div.description {
+    padding: 20px;
+    text-align: center;
+}
+
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.gallery {
+    border: 1px solid gray;
+}
+div.gallery:hover {
+    border: 1px solid red;
+}
+
+#token {
+    width: 60%;
+    height: 100%;
+}
+
+#deckbox {
+    width: 80%;
+    height: 100%;
+}
+
+#cardsleeves {
+    width: 90%;
+    height: 100%;
+}
+
+
+@media screen and (max-width: 767.98px) {
+    .header {
+        width: 150%;
+    }
+    #title {
+        width: 200%;
+    }
+
+    #small {
+        display: none;
+    }
+
+    .responsive{
+        width: 49.9%;
+        margin: 6px 0;
+    }
+
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+
