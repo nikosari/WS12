@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>MtG Guide</title>
         <link rel="icon" type="image/x-icon" href="icons/croppedcat.png?">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -21,7 +21,7 @@
             <div class="row">
               
                 <nav class="navbar" style="display: flex; padding-top: 2%; justify-content: center; margin-left: 1%;">
-                    <img class="col-sm-2" id="small" src="icons/Magic_card_back.png" style="width: 70px;height: inherit;">
+                    <img class="col-sm-2" alt="" id="small" src="icons/Magic_card_back.png" style="width: 70px;height: inherit;">
                     <div class="col-sm-2">
                         <p><a href="index.html" style="text-decoration:none"> &nbsp; &nbsp; How to play &nbsp; &nbsp;</a></p>
                     </div>
@@ -34,6 +34,7 @@
                     <div class="col-sm-2">
                         <p><a href="contact.html" style="text-decoration:none"> &nbsp; &nbsp; Contact &nbsp; &nbsp; &nbsp;</a></p>
                     </div>
+                </nav>
                     
             
             
@@ -42,12 +43,12 @@
     </header>
     <div class="container-fluid">
         <div class="row justify-content-center align-items-center">
-            <img class="col-md-12" src="icons/mtgcolors.png"  style="width: 400px; height: auto;">
+            <img class="col-md-12" alt="" src="icons/mtgcolors.png"  style="width: 400px; height: auto;">
         </div>
     </div>
 
    
-    <div class="container-fluid" style="display: flex; background-color: rgba(0, 0, 0, 0.8);">
+    <div class="container-fluid" style="background-color: rgba(0, 0, 0, 0.8);">
         
         <div class="row" style="color:wheat; text-align: justify; justify-content: center;">
      
@@ -59,82 +60,85 @@
             <br>
 
           
-             
-             <div class="row" id="guide">
-             <p class="col-md-6 sm-6 justify-content-center align-items-center" id="guide" style="margin-right: 25%; margin-left: auto; margin-bottom: 2%;">
+            <div class="row" id="guide">
+                <div class="container-fluid">
+                <p class="col-md-6 justify-content-center align-items-center" style="margin-right: 25%; margin-left: auto;">
                 Magic has a deeply structured world and one of the cornerstones of this world are its colors of Mana. The five different colors are white, blue, black, red and green.
-                Each of these has its own unique characteristics and principles, and the creatures and people in the world of Magic are aligned accordingly. In terms of the game, colors are the most important mechanic to learn and understand,
+                Each of these has its own unique characteristics and principles, and the creatures and people in the world of Magic are aligned accordingly. <br> In terms of the game, colors are the most important mechanic to learn and understand,
                 as the cards have whats called a color identity, a design principle that determines the type of effects a card of any colors may have. Each color has its weaknesses and strengths. 
-                <br> <br> Click the example cards below to see them larger. </p>
-          
-                <table border="5" style="width: 50%; height: auto; margin-left: auto; margin-right: auto; color: black; text-align: center;">
-                    <tr border="1">
+                <br> <br> Click the example cards below to see them larger.</p>
+            
+
+                <div style="overflow-x: auto;">
+                <table style="width: 50%; height: auto; margin-left: auto; margin-right: auto; color: black; text-align: center;">
+                    <tr>
                         <th>Symbol</th>
                         <th>Name</th>
                         <th>Values</th>
                         <th>Strengths</th>
                         <th>Example</th>
                     </tr>
-                    <tr border="2">
-                       <td><img src="icons/white_icon.png"> </td>
+                    <tr>
+                       <td><img src="icons/white_icon.png" alt=""> </td>
                        <td style="color: rgb(185, 176, 176);">White</td>
                        <td>Structure, harmony, peace and equality</td>
                        <td>Auras, strong removal, board wipes, healing</td>
                        <td><a href="images/shelteredbyghosts.png" target="_blank">
-                        <img src="images/shelteredbyghosts.png" id="tableimg">
+                        <img src="images/shelteredbyghosts.png" alt="" width="200">
                         </a>
                     </td>
                     </tr>
                     <tr>
-                        <td><img src="icons/blue_icon.png"></td> 
+                        <td><img src="icons/blue_icon.png" alt=""></td> 
                         <td style="color: rgb(26, 26, 146);">Blue</td>
                         <td>Knowledge, science, exceptionality and technology</td>
                         <td>Card draw, counterspells, deck manipulation, flying creatures</td>
                         <td><a href="images/counterspell.png" target="_blank">
-                            <img src="images/counterspell.png" id="tableimg">
+                            <img src="images/counterspell.png" alt="" width="200">
                             </a>
                         </td>
                     </tr>
                     <tr>
-                       <td><img src="icons/black_icon.png"></td> 
+                       <td><img src="icons/black_icon.png" alt=""></td> 
                        <td style="color: black;">Black</td>
                        <td>Ambition, death, sacrifice and self-interest</td> 
                        <td>Removal, reanimation effects, hand disruption and using life as a resource</td>
                        <td><a href="images/thouhtseize.png" target="_blank">
-                        <img src="images/thouhtseize.png" id="tableimg">
+                        <img src="images/thouhtseize.png" alt="" width="200">
                             </a>
                         </td>
                     </tr>
 
                     <tr>
-                        <td><img src="icons/red_icon.png"></td> 
+                        <td><img src="icons/red_icon.png" alt=""></td> 
                         <td style="color: rgb(163, 15, 44);">Red</td>
                         <td>Impulsiveness, fire, action and freedom</td>
                         <td>Non-combat damage, haste creatures and conditional card draw</td>
                         <td><a href="images/swiftspear.png" target="_blank">
-                            <img src="images/swiftspear.png" id="tableimg">
+                            <img src="images/swiftspear.png" alt="" width="200">
                             </a>
                         </td>
                     </tr>
 
                     <tr>
-                        <td><img src="icons/green_icon.png"></td> 
+                        <td><img src="icons/green_icon.png" alt=""></td> 
                         <td style="color: rgb(116, 190, 42);">Green</td>  
                         <td>Nature, spirituality and survival of the fittest</td>
                         <td>Mana ramp and searching for lands, huge creatures, making creatures bigger and enchantments</td>
                         <td><a href="images/craterhoof.png" target="_blank"> 
-                            <img src="images/craterhoof.png" id="tableimg"> 
+                            <img src="images/craterhoof.png" alt="" width="200"> 
                             </a>
                         </td>
                     </tr>
         
         
                 </table>
-                
-                <p class="col-md-6 sm-6 justify-content-center align-items-center" id="guide" style="margin-right: 25%; margin-left: auto; margin-top:3%;">As you may see, each color is truly unique. However its important to remember you can also make color combinations with any amount of colors, even using all five if you so wish. This allows for a lot of creativity in deck building and card design,
+            </div>    
+      
+                <p class="col-md-6 sm-6 justify-content-center align-items-center" style="margin-right: 25%; margin-left: auto; margin-top:3%;">As you may see, each color is truly unique. However its important to remember you can also make color combinations with any amount of colors, even using all five if you so wish. This allows for a lot of creativity in deck building and card design,
                     as many cards also have multiple colors in their mana costs.</p>
                 
-                
+            </div>
             
              </div>
              
@@ -148,7 +152,7 @@
         </div>
         
         
-    </div>
+
     
 
     <footer id="footer" style="text-align: right; bottom: 0; float: right; color: white; margin-right: 2%;">
