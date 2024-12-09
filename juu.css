@@ -90,7 +90,7 @@ th, td, tr {
 #button:hover {
     opacity: 90%;
     color: red;
-    border: 1;
+    border: 1px;
     background-color: aquamarine;
 }
 
@@ -149,6 +149,21 @@ div.gallery:hover {
     .responsive{
         width: 150%;
         margin: 6px 0;
+    }
+
+    table {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: center;
+
+    }
+    tr {
+        display: flex;
+        flex-direction: column;
+    }
+    td, th {
+        overflow-wrap: break-word;
+
     }
 
 }
